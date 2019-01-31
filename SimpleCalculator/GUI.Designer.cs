@@ -32,6 +32,9 @@
             this.lblValue2 = new System.Windows.Forms.Label();
             this.lblAnswer = new System.Windows.Forms.Label();
             this.lblFunctions = new System.Windows.Forms.Label();
+            this.txtValue1 = new System.Windows.Forms.TextBox();
+            this.txtValue2 = new System.Windows.Forms.TextBox();
+            this.txtAnswer = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblValue1
@@ -70,16 +73,40 @@
             this.lblFunctions.TabIndex = 3;
             this.lblFunctions.Text = "Functions";
             // 
-            // Form1
+            // txtValue1
+            // 
+            this.txtValue1.Location = new System.Drawing.Point(176, 109);
+            this.txtValue1.Name = "txtValue1";
+            this.txtValue1.Size = new System.Drawing.Size(100, 20);
+            this.txtValue1.TabIndex = 4;
+            // 
+            // txtValue2
+            // 
+            this.txtValue2.Location = new System.Drawing.Point(176, 173);
+            this.txtValue2.Name = "txtValue2";
+            this.txtValue2.Size = new System.Drawing.Size(100, 20);
+            this.txtValue2.TabIndex = 5;
+            // 
+            // txtAnswer
+            // 
+            this.txtAnswer.Location = new System.Drawing.Point(176, 225);
+            this.txtAnswer.Name = "txtAnswer";
+            this.txtAnswer.Size = new System.Drawing.Size(100, 20);
+            this.txtAnswer.TabIndex = 6;
+            // 
+            // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtAnswer);
+            this.Controls.Add(this.txtValue2);
+            this.Controls.Add(this.txtValue1);
             this.Controls.Add(this.lblFunctions);
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.lblValue2);
             this.Controls.Add(this.lblValue1);
-            this.Name = "Form1";
+            this.Name = "GUI";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -92,6 +119,9 @@
         private System.Windows.Forms.Label lblValue2;
         private System.Windows.Forms.Label lblAnswer;
         private System.Windows.Forms.Label lblFunctions;
+        private System.Windows.Forms.TextBox txtValue1;
+        private System.Windows.Forms.TextBox txtValue2;
+        private System.Windows.Forms.TextBox txtAnswer;
     }
 }
 
