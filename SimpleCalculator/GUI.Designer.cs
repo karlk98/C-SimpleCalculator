@@ -107,7 +107,7 @@
             this.Controls.Add(this.lblValue2);
             this.Controls.Add(this.lblValue1);
             this.Name = "GUI";
-            this.Text = "Form1";
+            this.Text = "Simple Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
