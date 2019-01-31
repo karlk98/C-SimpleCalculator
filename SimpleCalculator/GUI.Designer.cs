@@ -45,7 +45,7 @@
             // lblValue1
             // 
             this.lblValue1.AutoSize = true;
-            this.lblValue1.Location = new System.Drawing.Point(100, 112);
+            this.lblValue1.Location = new System.Drawing.Point(49, 61);
             this.lblValue1.Name = "lblValue1";
             this.lblValue1.Size = new System.Drawing.Size(43, 13);
             this.lblValue1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // lblValue2
             // 
             this.lblValue2.AutoSize = true;
-            this.lblValue2.Location = new System.Drawing.Point(100, 176);
+            this.lblValue2.Location = new System.Drawing.Point(49, 125);
             this.lblValue2.Name = "lblValue2";
             this.lblValue2.Size = new System.Drawing.Size(43, 13);
             this.lblValue2.TabIndex = 1;
@@ -63,7 +63,7 @@
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Location = new System.Drawing.Point(100, 228);
+            this.lblAnswer.Location = new System.Drawing.Point(49, 177);
             this.lblAnswer.Name = "lblAnswer";
             this.lblAnswer.Size = new System.Drawing.Size(42, 13);
             this.lblAnswer.TabIndex = 2;
@@ -72,7 +72,7 @@
             // lblFunctions
             // 
             this.lblFunctions.AutoSize = true;
-            this.lblFunctions.Location = new System.Drawing.Point(359, 112);
+            this.lblFunctions.Location = new System.Drawing.Point(268, 61);
             this.lblFunctions.Name = "lblFunctions";
             this.lblFunctions.Size = new System.Drawing.Size(53, 13);
             this.lblFunctions.TabIndex = 3;
@@ -80,28 +80,29 @@
             // 
             // txtValue1
             // 
-            this.txtValue1.Location = new System.Drawing.Point(176, 109);
+            this.txtValue1.Location = new System.Drawing.Point(125, 58);
             this.txtValue1.Name = "txtValue1";
             this.txtValue1.Size = new System.Drawing.Size(100, 20);
             this.txtValue1.TabIndex = 4;
             // 
             // txtValue2
             // 
-            this.txtValue2.Location = new System.Drawing.Point(176, 173);
+            this.txtValue2.Location = new System.Drawing.Point(125, 122);
             this.txtValue2.Name = "txtValue2";
             this.txtValue2.Size = new System.Drawing.Size(100, 20);
             this.txtValue2.TabIndex = 5;
             // 
             // txtAnswer
             // 
-            this.txtAnswer.Location = new System.Drawing.Point(176, 225);
+            this.txtAnswer.Location = new System.Drawing.Point(125, 174);
             this.txtAnswer.Name = "txtAnswer";
+            this.txtAnswer.ReadOnly = true;
             this.txtAnswer.Size = new System.Drawing.Size(100, 20);
             this.txtAnswer.TabIndex = 6;
             // 
             // btnAddition
             // 
-            this.btnAddition.Location = new System.Drawing.Point(458, 112);
+            this.btnAddition.Location = new System.Drawing.Point(367, 61);
             this.btnAddition.Name = "btnAddition";
             this.btnAddition.Size = new System.Drawing.Size(30, 23);
             this.btnAddition.TabIndex = 7;
@@ -110,7 +111,7 @@
             // 
             // btnMultiplication
             // 
-            this.btnMultiplication.Location = new System.Drawing.Point(513, 154);
+            this.btnMultiplication.Location = new System.Drawing.Point(422, 103);
             this.btnMultiplication.Name = "btnMultiplication";
             this.btnMultiplication.Size = new System.Drawing.Size(30, 23);
             this.btnMultiplication.TabIndex = 8;
@@ -119,7 +120,7 @@
             // 
             // btnDivision
             // 
-            this.btnDivision.Location = new System.Drawing.Point(458, 154);
+            this.btnDivision.Location = new System.Drawing.Point(367, 103);
             this.btnDivision.Name = "btnDivision";
             this.btnDivision.Size = new System.Drawing.Size(30, 23);
             this.btnDivision.TabIndex = 9;
@@ -128,7 +129,7 @@
             // 
             // btnSubtraction
             // 
-            this.btnSubtraction.Location = new System.Drawing.Point(513, 112);
+            this.btnSubtraction.Location = new System.Drawing.Point(422, 61);
             this.btnSubtraction.Name = "btnSubtraction";
             this.btnSubtraction.Size = new System.Drawing.Size(30, 23);
             this.btnSubtraction.TabIndex = 10;
@@ -137,7 +138,7 @@
             // 
             // btnAnswer
             // 
-            this.btnAnswer.Location = new System.Drawing.Point(458, 199);
+            this.btnAnswer.Location = new System.Drawing.Point(367, 148);
             this.btnAnswer.Name = "btnAnswer";
             this.btnAnswer.Size = new System.Drawing.Size(85, 23);
             this.btnAnswer.TabIndex = 11;
@@ -148,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(504, 267);
             this.Controls.Add(this.btnAnswer);
             this.Controls.Add(this.btnSubtraction);
             this.Controls.Add(this.btnDivision);
