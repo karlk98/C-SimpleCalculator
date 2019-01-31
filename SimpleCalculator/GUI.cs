@@ -14,7 +14,7 @@ namespace SimpleCalculator
     {
         int value1;
         int value2;
-        int result;
+        double result;
         string function = "";
         public GUI()
         {
