@@ -108,6 +108,7 @@
             this.btnAddition.TabIndex = 7;
             this.btnAddition.Text = "+";
             this.btnAddition.UseVisualStyleBackColor = true;
+            this.btnAddition.Click += new System.EventHandler(this.btnAddition_Click);
             // 
             // btnMultiplication
             // 
@@ -117,6 +118,7 @@
             this.btnMultiplication.TabIndex = 8;
             this.btnMultiplication.Text = "*";
             this.btnMultiplication.UseVisualStyleBackColor = true;
+            this.btnMultiplication.Click += new System.EventHandler(this.btnMultiplication_Click);
             // 
             // btnDivision
             // 
@@ -126,6 +128,7 @@
             this.btnDivision.TabIndex = 9;
             this.btnDivision.Text = "/";
             this.btnDivision.UseVisualStyleBackColor = true;
+            this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // btnSubtraction
             // 
@@ -135,6 +138,7 @@
             this.btnSubtraction.TabIndex = 10;
             this.btnSubtraction.Text = "-";
             this.btnSubtraction.UseVisualStyleBackColor = true;
+            this.btnSubtraction.Click += new System.EventHandler(this.btnSubtraction_Click);
             // 
             // btnAnswer
             // 
@@ -144,6 +148,7 @@
             this.btnAnswer.TabIndex = 11;
             this.btnAnswer.Text = "Answer";
             this.btnAnswer.UseVisualStyleBackColor = true;
+            this.btnAnswer.Click += new System.EventHandler(this.btnAnswer_Click);
             // 
             // GUI
             // 
