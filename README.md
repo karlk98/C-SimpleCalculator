@@ -10,4 +10,4 @@ It has the following functions:
 In the future I am looking to add in a few more features and some accessibility to make it easier to use or for 
 people to customise the GUI so it is the way they like it.
 
-I hope you like this basic project :) #
+I hope you like this basic project :) 
